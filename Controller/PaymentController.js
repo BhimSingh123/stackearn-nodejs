@@ -6,8 +6,8 @@ const logger = require("../utill/Loggers");
 
 
 const razorpayInstance = new Razorpay({
-  key_id: process.env.RAZORPAY_KEY_ID,
-  key_secret: process.env.RAZORPAY_KEY_SECRET,
+  key_id: "rzp_test_unIz2PIa26wuF8",
+  key_secret: "rgJXrlU8ly88hjXKWDWA4QeZ",
 });
 
 exports.createOrder = catchAsync(async (req, res) => {

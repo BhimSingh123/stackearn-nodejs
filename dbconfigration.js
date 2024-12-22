@@ -4,7 +4,7 @@ const logger = require("./utill/Loggers");
 
 dotenv.config();
 
-mongoose.connect(process.env.DB_URL, {
+mongoose.connect("mongodb+srv://ankitjain:ankit5678@cluster0.g69we.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0", {
    serverSelectionTimeoutMS: 5000, 
    autoIndex: false,               
    maxPoolSize: 10,                
